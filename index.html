@@ -3,11 +3,38 @@
     <head>
         <meta charset "UTF-8">
         <title>Moja pierwsza strona</title>
+
+        <style>
+            body{
+                background-color:darkgoldenrod;
+            }
+            h1
+            {
+                font-size:48pt ;
+                background-color: red;
+                box-shadow: 0 0 10px 10px darkgoldenrod inset;               
+            }
+            img{
+                margin-top: 30px;
+                box-shadow: 10px 10px rgba(64, 64, 64, 0.75);
+            }
+            img:hover {
+                opacity: 0.5;
+                transition-duration: 0.2s;
+
+                cursor: crosshair;
+            }
+
+            #tytuł{
+                font-family: 'comic sans ms';
+            }
+
+        </style>
     </head>
     
     <body>
     
-        <h1>Hello, world!</h1>
+        <h1 id="tytuł">Hello, world!</h1>
         <h2>Hello, world!</h2>
         <h3>Hello, world!</h3>
         <h4>Hello, world!</h4>
@@ -43,13 +70,13 @@
             </tr>
         </table>
         
-        <h1><a href="https://youtube.com" title="Odsyła cię na YT, a co myślałeś?">YouTube</a></h1>
+        <h1 id="link"><a href="https://youtube.com" title="Odsyła cię na YT, a co myślałeś?">YouTube</a></h1>
 
 
 
         <video src="P1030325.MP4" width=40% controls autoplay loop></video>
 
-        <p><img src="IMG_20210504_073145.png" width=20%></p>
+        <p><img src="kot.png" width=20%></p>
         <!można też podawać w pikselach!>
         <audio src="Amanda.mp3" controls autoplay loop></audio>
        
